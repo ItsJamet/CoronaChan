@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CoronaChan</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Covid19 Cases Updates</string>
+    <string name="nav_header_subtitle">coronachan19@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Stats</string>
+    <string name="menu_slideshow">News</string>
+    <string name="covid">List Negara</string>
+    <string name="lihat">Lihat Semua</string>
+    <string name="negara">Negara: </string>
+</resources>

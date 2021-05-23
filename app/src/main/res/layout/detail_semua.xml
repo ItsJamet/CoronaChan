@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#34ABDA">
+
+
+    <RelativeLayout
+        android:id="@+id/coverV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/imageV2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/corona_chan" />
+
+
+            <TextView
+                android:id="@+id/negaraV2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="bottom"
+                android:text="@string/negara"
+                android:textColor="#D8279C"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textSize="20sp"
+                android:layout_marginTop="170dp"
+                android:textColor="#D8279C"
+                android:textStyle="bold"
+                android:id="@+id/percobaan"
+                android:layout_marginStart="115dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/TVupdated"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/TVcases"
+
+            android:layout_below="@+id/TVupdated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/TVtodayCases"
+
+            android:layout_below="@+id/TVcases"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/TVdeaths"
+
+            android:layout_below="@+id/TVtodayCases"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/TVtodayDeaths"
+
+            android:layout_below="@+id/TVdeaths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <WebView
+            android:id="@+id/myWeb"
+            android:layout_below="@+id/TVtodayDeaths"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"/>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
